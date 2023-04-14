@@ -1,0 +1,134 @@
+.pokemon-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pokemon-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pagination, .itemsCountContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .pagBlock, .itemsCount{
+    width: 30px;
+    /* height: 30px; */
+    background-color: #A890F0;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  .pokemon-card {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pokemon-card a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .pokemon-card img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .pokemon-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pokemon-type {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .type {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .type-normal {
+    background-color: #A8A878;
+  }
+  
+  .type-fighting {
+    background-color: #C03028;
+  }
+  
+  .type-flying {
+    background-color: #A890F0;
+  }
+  
+  .type-poison {
+    background-color: #A040A0;
+  }
+  
+  .type-ground {
+    background-color: #E0C068;
+  }
+  
+  .type-rock {
+    background-color: #B8A038;
+  }
+  
+  .type-bug {
+    background-color: #A8B820;
+  }
+  
+  .type-ghost {
+    background-color: #705898;
+  }
+  
+  .type-steel {
+    background-color: #B8B8D0;
+  }
+  
+  .type-fire {
+    background-color: #F08030;
+  }
+  
+  .type-water {
+    background-color: #6890F0;
+  }
+  
+  .type-grass {
+    background-color: #78C850;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: red;
+  }
